@@ -1,0 +1,19 @@
+---
+title: "accident_map"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{accident_map}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(Week2)
+```
