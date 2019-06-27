@@ -8,7 +8,8 @@ library("testthat")
 #' @return Extracts csv data
 #' \cr On error, message "file... does not exist" is issued.
 #' @examples
-#' fars_read("accident_2013.csv.bz2")
+#' \donttest{
+#' fars_read("accident_2013.csv.bz2")}
 #' @importFrom dplyr tbl_df
 
 fars_read <- function(filename) {
@@ -27,6 +28,7 @@ fars_read <- function(filename) {
 #' \cr concatenates accident_+year+.csv.bz2
 #' @examples
 #' make_filename(2015)
+#' @export
 
 make_filename <- function(year) {
         year <- as.integer(year)
@@ -38,7 +40,8 @@ make_filename <- function(year) {
 #' @return Returns records of accidents for the selected year by month.
 #' \cr On error, warning "invalid year" is issued
 #' @examples
-#' fars_read_years(2015)
+#' \donttest{
+#' fars_read_years(2015)}
 #' @importFrom dplyr mutate
 #' @importFrom dplyr select
 
@@ -60,7 +63,8 @@ fars_read_years <- function(years) {
 #' @param years calender year of accidents to be retrieved
 #' @return summary of accidents for the year by month
 #' @examples
-#' fars_summarize_years(2015)
+#' /donttest{}
+#' fars_summarize_years(2015)}
 #' @importFrom dplyr group_by
 #' @importFrom dplyr summarize
 #' @importFrom tidyr spread
@@ -81,7 +85,9 @@ fars_summarize_years <- function(years) {
 #' \cr Issues error "invalid State number" if state number provided does not exist
 #' \cr Issues message if no records are retrieved for the selection
 #' @examples
+#' \donttest{
 #' fars_map_state(1,2015)
+#' }
 #' @importFrom maps map
 #' @importFrom graphics points
 #' @importFrom dplyr filter
