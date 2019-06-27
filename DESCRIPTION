@@ -16,4 +16,5 @@ Suggests:
     testthat (>= 2.1.0)
 VignetteBuilder: knitr
 Imports: dplyr,
-         maps
+         maps,
+         tidyr
