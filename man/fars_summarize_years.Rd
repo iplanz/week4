@@ -15,6 +15,3 @@ summary of accidents for the year by month
 \description{
 Summary of accidents by year
 }
-\examples{
-fars_summarize_years(2015)
-}

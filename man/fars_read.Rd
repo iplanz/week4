@@ -17,5 +17,6 @@ Extracts csv data
 Read CSV
 }
 \examples{
-fars_read("accident_2013.csv.bz2")
+\donttest{
+fars_read("accident_2013.csv.bz2")}
 }

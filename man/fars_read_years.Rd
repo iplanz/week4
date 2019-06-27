@@ -17,5 +17,6 @@ Returns records of accidents for the selected year by month.
 Filter by year
 }
 \examples{
-fars_read_years(2015)
+\donttest{
+fars_read_years(2015)}
 }

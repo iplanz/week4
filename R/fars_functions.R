@@ -85,6 +85,7 @@ fars_summarize_years <- function(years) {
 #' @importFrom maps map
 #' @importFrom graphics points
 #' @importFrom dplyr filter
+#' @export
 
 fars_map_state <- function(state.num, year) {
         filename <- make_filename(year)
