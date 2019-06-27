@@ -1,7 +1,7 @@
 \name{fars}
 \alias{fars}
 %- Also NEED an '\alias' for EACH other topic documented here.
-\title{
+\title{Map of Vehicular Accidents
 %%  ~~function to do ... ~~
 }
 \description{
