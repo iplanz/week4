@@ -63,7 +63,7 @@ fars_read_years <- function(years) {
 #' @param years calender year of accidents to be retrieved
 #' @return summary of accidents for the year by month
 #' @examples
-#' /donttest{}
+#' \donttest{
 #' fars_summarize_years(2015)}
 #' @importFrom dplyr group_by
 #' @importFrom dplyr summarize
