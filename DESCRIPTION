@@ -17,4 +17,6 @@ Suggests:
 VignetteBuilder: knitr
 Imports: dplyr,
          maps,
-         tidyr
+         tidyr,
+         devtools,
+         testthat
