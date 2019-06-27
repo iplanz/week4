@@ -4,7 +4,4 @@
 language: R
 cache: packages
 
- addons:
-   apt:
-     packages:
-        dplyr
+
