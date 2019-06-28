@@ -16,6 +16,7 @@ summary of accidents for the year by month
 Summary of accidents by year
 }
 \examples{
-\donttest{
-fars_summarize_years(2015)}
+\dontrun{
+fars_summarize_years(2015)
+}
 }

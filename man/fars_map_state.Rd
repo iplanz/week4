@@ -20,7 +20,7 @@ Retruns map of selected state and location of accidents
 Map of accidents
 }
 \examples{
-\donttest{
+\dontrun{
 fars_map_state(1,2015)
 }
 }
