@@ -1,9 +1,9 @@
 Package: Week2
 Type: Package
-Title: Map Visualization of Vehicular Accidents
+Title: Visualization of Vehicular Accidents
 Version: 0.1.0
 Author: Coursera
-Maintainer: Coursera
+Maintainer: The package maintainer <yourself@somewhere.net>
 Description: Reads CSV files and provides a geolocation visualization
 License: What license is it under?
 Encoding: UTF-8
