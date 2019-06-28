@@ -1,1 +1,1 @@
-https://travis-ci.com/iplanz/week4.svg?branch=master
+[![Build Status](https://travis-ci.org/ctaber/buildingRpackages.svg?branch=master)](https://travis-ci.org/ctaber/buildingRpackages)
