@@ -18,4 +18,5 @@ Imports: dplyr,
          maps,
          tidyr,
          devtools,
+         readr,
          testthat
